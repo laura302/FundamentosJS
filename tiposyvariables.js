@@ -27,4 +27,11 @@ var firsName = 'Tony Stark'
 // No permite reasignacion
 
 const PI = 3.14;
-PI = 3.14
+// PI = 3.14
+
+// Variables con let 
+// declarar
+let lastName; //undefined
+lastName = 'Perez';
+lastName = true;
+lastName = 25;
