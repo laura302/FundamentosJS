@@ -6,14 +6,14 @@ for(let i = 10; i >= 0; i--){
     console.log(i);
 }
 
-// whilw
+// while
 let contador = 0;
-whilw(contador < 5){
+while(contador < 5){
     console.log(contador);
     contador++;
 }
 
-// do whilw
+// do while
 contador = 0;
 do {
     console.log(contador);
