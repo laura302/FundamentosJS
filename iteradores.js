@@ -1,4 +1,4 @@
-contsfruits = ['apple', 'prange', 'melon', 'water', 'melon'];
+const fruits = ['apple', 'prange', 'melon', 'water', 'melon'];
 
 console.log('for');
 // recorido con for
@@ -8,7 +8,7 @@ for(let i = 0; i < fruits.length; i++){
 
 console.log('for of')
 // recorrido con for of
-for(conts  fruit of fruits){
+for (conts fruit of fruits ){
     console.log(fruit);
 }
 
@@ -21,7 +21,7 @@ fruits.forEach(
     }
 );
 
-fruits.forEach{
+fruits.forEach {
     (fruit) => {
         console.log(fruit);
     }
@@ -47,7 +47,7 @@ console.log(squares);
 // Itera un array y regresa uno nuevo con valores que cumplan 
 // condicion
 
-conts mayores = numbers.filter(num => num > 4);
+const mayores = numbers.filter(num => num > 4);
 /*
 (num) => {
     if(num > 4){
@@ -63,10 +63,23 @@ console.log(mayores);
 
 
 const sumatoria = numbers.reduce((a, b) => a + b);
- fact = numbers.reduce((a, b) => a*b);
+const fact = numbers.reduce((a, b) => a*b);
 
 console.log(numbers);
 console.log(sumatoria);
+console.log(fact);
+
+const minusculas = 'abcdefghi'.split('');
+
+const mayusculas = minusculas.map(letra => letra.toUpperCase());
+
+console.log(minusculas);
+console.log(mayusculas);
 
 
+// some 
+// regresa Trur si ak menos uno de los elemnetos cumplen
+
+const equaTos = numbers.some(num => num === 5);
+console.log(equaTos);
 
